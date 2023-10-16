@@ -93,8 +93,51 @@ ul li{
 }
 
 .container_videocall{
-    width: 60%;
-    height: 1000px;
+    width: 1000px;
+    height: 700px;
     background-color: green;
+    margin: auto;
+}
+
+
+/* stili footer (lista social, prodotto, compagnia, risorse, norme) */
+
+.info_list{
+    background-color: rgba(39, 36, 36, 0.966);
+    padding: 30px;
+    border-bottom: solid 1px white;
+}
+
+
+.container_list.flex{
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#social{
+    background-color: red;
+    width: 400px;
+    height: 700px;
+}
+
+.list{
+    background-color: aquamarine;
+    width: calc(20%/4);
+    height: 700px;
+    border: solid 1px black;
+}
+
+.container_navigation_bar_footer{
+    background-color: rgba(39, 36, 36, 0.966);
+    padding: 30px;
+}
+
+.navigation_bar_footer.flex{
+    background-color: rgba(32, 162, 218, 0.812);
+    min-height: 80px;
+    border: solid 1px black;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
 }
