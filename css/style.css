@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
 /* stili header (navigation bar) */
@@ -30,7 +31,7 @@ ul li{
     background-color: rgba(203, 218, 32, 0.812);
     min-height: 50px;
     border: solid 1px black;
-    width: 1000px;
+    width: 40%;
     justify-content: space-around;
     align-items: center;
     margin: auto;
@@ -46,8 +47,8 @@ ul li{
 
 .intro{
     background-color: palevioletred;
-    width: 700px;
-    height: 400px;
+    width: 30%;
+    height: 330px;
     margin: auto;
 }
 
@@ -65,12 +66,12 @@ ul li{
 }
 
 .container_info_white {
-    width: 1000px;
+    width: 40%;
     margin: auto;
 }
 
 .container_info_gray {
-    width: 1000px;
+    width: 40%;
     margin: auto;
 }
 
@@ -93,7 +94,7 @@ ul li{
 }
 
 .container_videocall{
-    width: 1000px;
+    width: 40%;
     height: 700px;
     background-color: green;
     margin: auto;
@@ -112,17 +113,19 @@ ul li{
 .container_list.flex{
     justify-content: center;
     padding-bottom: 60px;
+    width: 40%;
+    margin: auto;
 }
 
 #social{
     background-color: red;
-    width: 400px;
+    width: 300px;
     height: 700px;
 }
 
 .list{
     background-color: aquamarine;
-    width: calc(20%/4);
+    width: calc(70%/4);
     height: 700px;
     border: solid 1px black;
 }
@@ -136,8 +139,8 @@ ul li{
     background-color: rgba(32, 162, 218, 0.812);
     min-height: 80px;
     border: solid 1px black;
-    width: 1000px;
     justify-content: space-between;
     align-items: center;
+    max-width: 40%;
     margin: auto;
 }
