@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stili header (navigation bar) */
+
+.container_navigation_bar{
+    background-color: aqua;
+    min-height: 70px;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+ul li{
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navigation_bar.flex{
+    display: flex;
+    background-color: rgba(203, 218, 32, 0.812);
+    min-height: 50px;
+    border: solid 1px black;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+/* stili header (intro) */
+
+.container_paragrafo{
+    background-color: blue;
+    min-height: 300px;
+    padding: 30px;
+}
+
+.intro{
+    background-color: palevioletred;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
