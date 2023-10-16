@@ -21,6 +21,10 @@ ul li{
     display: inline-block;
 }
 
+.flex {
+    display: flex;
+}
+
 .navigation_bar.flex{
     display: flex;
     background-color: rgba(203, 218, 32, 0.812);
@@ -44,5 +48,53 @@ ul li{
     background-color: palevioletred;
     width: 700px;
     height: 400px;
+    margin: auto;
+}
+
+
+/* stili main */
+
+.info_white{
+    background-color: white;
+    padding: 50px;
+}
+
+.info_gray{
+    background-color: gray;
+    padding: 50px;
+}
+
+.container_info_white {
+    width: 1000px;
+    margin: auto;
+}
+
+.container_info_gray {
+    width: 1000px;
+    margin: auto;
+}
+
+
+.info_image{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(10, 199, 199);
+}
+
+.info_text{
+    width: 40%;
+    height: 400px;
+    background-color: pink;
+}
+
+.info_videocall{
+    background-color: gray;
+    padding: 50px;
+}
+
+.container_videocall{
+    width: 60%;
+    height: 1000px;
+    background-color: green;
     margin: auto;
 }
